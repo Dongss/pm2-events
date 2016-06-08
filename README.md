@@ -11,7 +11,7 @@ install
 example:
 
 ```
-const pmEvents = require('./index');
+const pmEvents = require('pm2-events');
 
 let myPm = new pmEvents();
 
@@ -102,6 +102,6 @@ event detail should like this:
 
 ```
 
-## other
+## Other
 
 Events cateched by pm2-events is not very accurate
