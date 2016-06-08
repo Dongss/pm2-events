@@ -1,0 +1,29 @@
+{
+  "name": "pm2-events",
+  "version": "0.1.0",
+  "description": "catch pm2 events ",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ava test/*.js",
+    "nyc": "./node_modules/.bin/nyc npm test",
+    "report": "./node_modules/.bin/nyc report --reporter=html"
+  },
+  "keywords": [
+    "pm2",
+    "events"
+  ],
+  "author": "Shaoshuai Dong",
+  "engines": "node>=6.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dongss/pm2-events"
+  },
+  "dependencies": {
+    "pm2-axon": "^2.0.11"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "nyc": "^6.4.4"
+  }
+}
