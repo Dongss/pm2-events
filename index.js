@@ -13,7 +13,7 @@ function pmEvents(options) {
 /**
  * Pre init: get sock path
  *
- * @param {Object} options
+ * @param {Function} callback
  * @return {Context} this
  * @api private
  */
@@ -37,7 +37,6 @@ pmEvents.prototype.preInit = function (callback) {
 /**
  * Init connect and events listener
  *
- * @param {Object} options
  * @return {Context} this
  * @api private
  */

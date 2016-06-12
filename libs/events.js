@@ -26,6 +26,8 @@ events.getSockPath = callback => {
  * Connect with sock and catch events 
  *
  * @param {String} sockPath
+ * @param {Function} event
+ * @param {Function} error
  */
 
 events.main = (sockPath, event, error) => {

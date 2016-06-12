@@ -104,4 +104,4 @@ event detail should like this:
 
 ## Other
 
-Events cateched by pm2-events is not very accurate
+Events catched by pm2-events is not very accurate
