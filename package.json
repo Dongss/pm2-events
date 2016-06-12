@@ -4,8 +4,8 @@
   "description": "catch pm2 events ",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/ava test/*.js",
-    "nyc": "./node_modules/.bin/nyc npm test",
+    "test": "./node_modules/.bin/nyc npm run ava",
+    "ava": "./node_modules/.bin/ava test/*.js",
     "report": "./node_modules/.bin/nyc report --reporter=html"
   },
   "keywords": [
