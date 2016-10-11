@@ -1,3 +1,4 @@
+"use strict"
 const axon  = require('pm2-axon');
 const sub = axon.socket('sub-emitter');
 const exec = require('child_process').exec;

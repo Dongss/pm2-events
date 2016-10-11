@@ -1,3 +1,4 @@
+"use strict"
 const myEvents = require('./libs/events');
 const myValidator = require('./libs/validator');
 
