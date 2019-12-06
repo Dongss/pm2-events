@@ -1,6 +1,6 @@
 {
   "name": "pm2-events",
-  "version": "0.1.1",
+  "version": "0.1.1-beta.1",
   "description": "catch pm2 events ",
   "main": "index.js",
   "scripts": {
