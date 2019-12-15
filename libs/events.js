@@ -13,7 +13,9 @@ let events = {};
  */
 
 events.getSockPath = callback => {
-    exec('ls ~/.pm2/pub.sock', (error, stdout, stderr) => {
+    const pm2Home = process.env.PM2_HOME;
+    let command = pm2Home === undefined ? 'ls ~/.pm2/pub.sock' : `ls ${pm2Home}/pub.sock`;
+    exec(command, (error, stdout, stderr) => {
         if (error || stderr) {
             let err = error || stderr;
             return callback(err);
